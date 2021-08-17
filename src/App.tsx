@@ -1,10 +1,11 @@
 import React from 'react';
+import Search from './containers/Search';
 
 function App() {
   return (
-    <p>
-      Edit <code>src/App.tsx</code> and save to reload.
-    </p>
+    <div className="container">
+      <Search />
+    </div>
   );
 }
 

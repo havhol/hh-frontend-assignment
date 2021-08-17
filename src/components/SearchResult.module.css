@@ -1,0 +1,78 @@
+.root {
+  margin-top:100px;
+}
+
+.table {
+  background:#fff;
+  width: 100%;
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border:1px solid #E5E3E3; 
+}
+
+.tableHead {
+  display: table-header-group;
+}
+
+.tableRow {
+  color: inherit;
+  display: table-row;
+  outline: 0;
+  vertical-align: middle;
+  /* padding-left:50px; */
+}
+
+.tableRowHead {
+  border-bottom: 1px solid #E5E3E3;
+}
+
+.tableCell {
+  display: table-cell;
+  padding: 16px;
+  font-size: 0.875rem;
+  text-align: left;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  vertical-align: inherit;
+  /* padding-left: 48px; */
+}
+
+.tableCellHead {
+  font-weight: 700;
+}
+
+.tableRowWithHiddenContent {
+  display: none;
+}
+
+.iconButton {
+  background: none;
+  border:0;
+  margin-right:12px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.iconButtonActive {
+  transform: rotate(180deg);
+}
+
+.tbody {
+  border-bottom: 1px solid #E5E3E3;
+}
+
+.activeItem .iconButton {
+  transform: rotate(0deg);
+}
+
+.activeItem .tableRowWithHiddenContent {
+  display:table-row;
+}
+
+.header {
+  font-weight:700;
+  margin-top:0;
+}

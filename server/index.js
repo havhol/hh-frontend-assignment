@@ -1,7 +1,10 @@
 const express = require('express');
+const cors = require('cors');
 const ships = require('./ships.json');
 const server = express();
 const port = 4000;
+
+server.use(cors());
 
 server.listen(port, () => {
   console.log(`Server listening at ${port}`);
